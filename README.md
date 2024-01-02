@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Description
 Projet de 1ère année de master. <br />
 Application React simple pour utiliser et comprendre <br />
-les fondamentaux et principes de react.
+les fondamentaux et principes de React.
 
 ## Lien
 git-page (Home) : https://hermenier35.github.io/tpreact/ <br />
