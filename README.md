@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installation et lancement
+git clone https://github.com/Hermenier35/tpreact.git <br />
+`en mode local supprimer cette ligne ["homepage": "https://Hermenier35.github.io/tpreact/",] du fichier package.json`
+npm install
+nmp run start
+
 ## Description
 Projet de 1ère année de master. <br />
 Application React simple pour utiliser et comprendre <br />
