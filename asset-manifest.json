@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/tpreact.github.io/static/css/main.d7737d5f.css",
-    "main.js": "/tpreact.github.io/static/js/main.e8935176.js",
+    "main.js": "/tpreact.github.io/static/js/main.d630430a.js",
     "static/js/787.3445f5be.chunk.js": "/tpreact.github.io/static/js/787.3445f5be.chunk.js",
     "static/media/back.png": "/tpreact.github.io/static/media/back.8f71c83bd73e2dd19c64.png",
     "static/media/Admiration.ttf": "/tpreact.github.io/static/media/Admiration.ef0718e13cae4a820617.ttf",
     "static/media/beer.avif": "/tpreact.github.io/static/media/beer.f00a5a435e6a25a53d35.avif",
     "index.html": "/tpreact.github.io/index.html",
     "main.d7737d5f.css.map": "/tpreact.github.io/static/css/main.d7737d5f.css.map",
-    "main.e8935176.js.map": "/tpreact.github.io/static/js/main.e8935176.js.map",
+    "main.d630430a.js.map": "/tpreact.github.io/static/js/main.d630430a.js.map",
     "787.3445f5be.chunk.js.map": "/tpreact.github.io/static/js/787.3445f5be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7737d5f.css",
-    "static/js/main.e8935176.js"
+    "static/js/main.d630430a.js"
   ]
 }
