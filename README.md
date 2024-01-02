@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Installation et lancement
 git clone https://github.com/Hermenier35/tpreact.git <br />
 `en mode local supprimer cette ligne ["homepage": "https://Hermenier35.github.io/tpreact/",] du fichier package.json` <br />
-npm install
+npm install <br />
 nmp run start
 
 ## Description
