@@ -8,7 +8,7 @@ Application React simple pour utiliser et comprendre <br />
 les fondamentaux et principes de react.
 
 ## Lien
-git-page (Home) : https://hermenier35.github.io/tpreact/
+git-page (Home) : https://hermenier35.github.io/tpreact/ <br />
 git-page (about) : https://hermenier35.github.io/tpreact/#/about
 
 
