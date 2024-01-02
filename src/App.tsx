@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './style/App.css';
+import BeerList from './BeerList';
 
 function App() {
+  const [beers, setBeers] = useState(['Coreff', 'Leff', 'Corona']);
+  const [newBeer, setNewBeer] = useState('');
+
+  const addBeer = () => {
+    if (newBeer.trim() !== '') {
+      setBeers([...beers, newBeer]);
+      setNewBeer('');
+    }
+  };
+
+  const remove = (index:number) => {
+    const newBeers = [...beers];
+    newBeers.splice(index, 1);
+    setBeers([...newBeers]);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>La bonne chope</h1>
+      <BeerList funcRemove={remove} initialBeers={beers} />
+      <div className='input'>
+        <input
+          type="text"
+          value={newBeer}
+          onChange={(e) => setNewBeer(e.target.value)}
+        />
+        <button onClick={addBeer}>Proposer une Bière</button>
+      </div>
     </div>
   );
 }
 
 export default App;
+
